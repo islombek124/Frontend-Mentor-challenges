@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'DM Serif Display', serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 1128px;
+    background-color: #EDF3F8;
+    justify-content: center;
+    align-items: center;
+    .container{
+        height: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        nav{
+            display: flex;
+            font-family: 'Public Sans';
+            align-items: center;
+            ul{
+                display: flex;
+                align-items: center;
+                .nav-logo{
+                    margin-right: 64.3px;
+                }
+                li{
+                    margin-right: 40px;
+                    a{
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #36536B;
+                        opacity: 0.7;
+                        transition: 0.2s ease;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+                button{
+                    width: 173px;
+                    height: 48px;
+                    background: #BA4270;
+                    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+                    border-radius: 24px;
+                    border: none;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: -0.115385px;
+                    color: #FBFCFE;
+                    cursor: pointer;
+                    transition: 0.3s ease;
+                    margin-left: 466px;
+                    &:hover{
+                        background-color: #da6d97;
+                    }
+                }
+            }
+        }
+        .header-main{
+            width: 100%;
+            .header-main__title{
+                width: 546px;
+                height: 56px;
+                h1{
+                    font-weight: 400;
+                    font-size: 56px;
+                    line-height: 56px;
+                    letter-spacing: -0.430769px;
+                    color: #36536B;
+                }
+            }
+            .header-main__pricing-about{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-top: 72px;
+                width: 350px;
+                height: 582px;
+                .header-main__pricing-about__top{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    width: 350px;
+                    height: 192px;
+                    h3{
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 40px;
+                        letter-spacing: -0.246154px;
+                        color: #BA4270;
+                    }
+                    p{
+                        font-family: 'Public Sans';
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 28px;
+                        color: #6C8294;
+                    }
+                    h2{
+                        font-weight: 400;
+                        font-size: 56px;
+                        line-height: 72px;
+                        letter-spacing: -0.430769px;
+                        color: #36536B;
+                    }
+                }
+                .header-main__pricing-rectangle{
+                    width: 100%;
+                    height: 1px;
+                    background: #36536B;
+                    opacity: 0.25;
+                }
+                .header-main__pricing-about__bottom{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    font-family: 'Public Sans';
+                    width: 350px;
+                    height: 366px;
+                    .header-main__pricing-about__bottom-about{
+                        width: 100%;
+                        height: 366px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            width: 100%;
+                            height: 294px;
+                            li{
+                                div{
+                                    display: flex;
+                                    gap: 24px;
+                                    p{
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 28px;
+                                        color: #36536B;
+                                    }
+                                }
+                            }
+                            .header-main__pricing-about__bottom-about-items{
+                                margin-left: 37px;
+                            }
+                        }
+                        .header-main__pricing-about__bottom-rectangle{
+                            width: 100%;
+                            height: 1px;
+                            background: #36536B;
+                            opacity: 0.25;
+                        }
+                        button{
+                            border: none;
+                            background-color: transparent;
+                            border: 1px solid #36536B;
+                            border-radius: 24px;
+                            width: 168px;
+                            height: 48px;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 18px;
+                            letter-spacing: -0.115385px;
+                            color: #36536B;
+                            cursor: pointer;
+                            transition: 0.2s ease;
+                            &:hover{
+                                background-color: #36536B;
+                                color: #FBFCFE;
+                            }
+                        }
+                    }
+                }
+            }
+            .header-main-bottom__contents{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .header-footer{
+            width: 100%;
+            height: 65px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                font-family: 'DM Serif Display';
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 56px;
+                letter-spacing: -0.369231px;
+                color: #36536B; 
+            }
+            form{
+                width: 445px;
+                height: 48px;
+                background-color: #fbfcfe;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                border-radius: 24px;
+                padding-left: 27px;
+                box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+                input{
+                    padding: 1px 2px;
+                    border: none;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #36536B;
+                    &:focus{
+                        outline: none;
+                    }
+                    &::placeholder{
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #36536B;
+                        opacity: 0.5;
+                    }
+                }
+                button{
+                    border: none;
+                    width: 173px;
+                    height: 48px;
+                    background: #BA4270;
+                    border-radius: 24px;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: -0.115385px;
+                    color: #FBFCFE;
+                }
+            }
+        }
+    }
+}
+footer{
+    font-family: 'Public Sans';
+    width: 100%;
+    height: 100px;
+    background-color: #1B262F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        nav{
+            display: flex;
+            ul{
+                display: flex;
+                align-items: center;
+                .footer-nav-logo{
+                    margin-right: 64.37px;
+                }
+                li{
+                    margin-right: 40px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    a{
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #FBFCFE;
+                        opacity: 0.7;
+                        transition: 0.2s ease;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+          }
+        .socials{
+            width: 120px;
+            height: 24px;
+            display: flex;
+            justify-content: space-between;
+            div{
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+    }
+}   

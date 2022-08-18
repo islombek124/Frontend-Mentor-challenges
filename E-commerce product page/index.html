@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Sneakers</title>
+    <!-- Link style -->
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./scss/media.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <nav>
+                <div class="nav-logo">
+                    <div class="nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="logo">
+                        <img src="./icons/sneakers.svg" alt="logo.svg">
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-menus">
+                        <li class="nav-menus__item"><a href="#">Collections</a></li>
+                        <li class="nav-menus__item"><a href="#">Men</a></li>
+                        <li class="nav-menus__item"><a href="#">Women</a></li>
+                        <li class="nav-menus__item"><a href="#">About</a></li>
+                        <li class="nav-menus__item"><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav-user">
+                        <li class="user-basket">
+                            <ion-icon name="cart-outline" class="cart__logo"></ion-icon>
+                            <div class="cart">
+                                <p class="title">Cart</p>
+                                <div class="cart__container">
+                                    <div class="cart__empty">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="user-logo">
+                            <img src="./icons/user.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main">
+                <div class="header-main__left">
+                    <div class="header-main__left-top">
+                        <img src="./images/pic1.jpg" alt="" class="display tab-item tab__item-active">
+                        <img src="./images/pic2.jpg" alt="" class="display tab-item">
+                        <img src="./images/pic3.jpg" alt="" class="display tab-item">
+                        <img src="./images/pic4.jpg" alt="" class="display tab-item">
+                        <img src="./images/salom.jpg" alt="" class="salom">
+                    </div>
+                    <div class="header-main__left-bottom">
+                        <div class="header-main__left-bottom-1">
+                            <img src="./images/snakers.jpg" alt="" class="tab-link">
+                        </div>
+                        <div class="header-main__left-bottom-2">
+                            <img src="./images/snakers-2.jpg" alt="" class="tab-link">
+                        </div>
+                        <div class="header-main__left-bottom-3">
+                            <img src="./images/snakers-3.jpg" alt="" class="tab-link">
+                        </div>
+                        <div class="header-main__left-bottom-4">
+                            <img src="./images/snakers-4.jpg" alt="" class="tab-link">
+                        </div>
+                    </div>
+                </div>
+                <div class="header-main__right">
+                    <div class="header-main__right-top">
+                        <p class="title">Sneaker Company</p>
+                        <h4>Fall Limited Edition Sneakers</h4>
+                        <p class="info">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                    </div>
+                    <div class="header-main__right-center">
+                        <div class="price">
+                            <p class="price">$ 125.00</p><div>50%</div>
+                        </div>
+                        <p class="old-price">$ 250.00</p>
+                    </div>
+                    <div class="header-main__right-bottom">
+                        <div class="card-c"><img src="./icons/minus.svg" alt="" id="minus"><span id="display" style="display: flex; align-items: center; justify-content: center;">0</span><img src="./icons/plus.svg" alt="" id="plus"></div>
+                        <button class="prostaBtn"><img src="./icons/Shape.png" alt=""><span>Add to cart</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal__items">
+            <div class="modal-close"><ion-icon name="close-sharp"></ion-icon></div>
+            <div class="header-main__left-top imgs">
+                <button class="left__tab"></button>
+                <img src="./images/pic1.jpg" alt="" class="tab__item tab__item__active">
+                <img src="./images/pic2.jpg" alt="" class="tab__item">
+                <img src="./images/pic3.jpg" alt="" class="tab__item">
+                <img src="./images/pic4.jpg" alt="" class="tab__item">
+                <button class="right__tab"></button>
+            </div>
+            <div class="header-main__left-bottom">
+                <div class="header-main__left-bottom-1">
+                    <img src="./images/snakers.jpg" alt="" class="tab__link">
+                </div>
+                <div class="header-main__left-bottom-2">
+                    <img src="./images/snakers-2.jpg" alt="" class="tab__link">
+                </div>
+                <div class="header-main__left-bottom-3">
+                    <img src="./images/snakers-3.jpg" alt="" class="tab__link">
+                </div>
+                <div class="header-main__left-bottom-4">
+                    <img src="./images/snakers-4.jpg" alt="" class="tab__link">
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
